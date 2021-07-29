@@ -1,2 +1,2 @@
 @echo off
-shutdown -s
+shutdown -s -t 2

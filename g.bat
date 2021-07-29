@@ -21,3 +21,4 @@ ping 1.1.1.1 -n 1 -w 1000>NUL
 @echo WARNING! System Shutdown in 1!
 ping 1.1.1.1 -n 1 -w 1000 >NUL
 @echo Man are you easy to fool! 
+pause

@@ -1,2 +1,3 @@
 @echo off
-echo hi
+echo You Are Hacked!! 
+pause

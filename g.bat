@@ -9,6 +9,7 @@ ping 1.1.1.1 -n 1 -w 5000 >NUL
 @echo WARNING! All Files Lost! Virus Detected 
 @echo Contact Administrator
 @echo WARNING! FIREWALL BREACHED!
+pause
 @echo WARNING! System Shutdown in 5!
 ping 1.1.1.1. -n 1 -w 1000 >NUL
 @echo WARNING! System Shutdown in 4!

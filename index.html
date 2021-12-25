@@ -4,12 +4,27 @@
  <body> 
 <h1>Hi</h1>
   <script>
- window.onload=()=>{
+var context = new AudioContext()
+var o = context.createOscillator()
+o.type = "sine"
+i = 0
 function m(){
-window.location.assign("p.pdf");
+requestAnimationFrame(m)
+o.frequency.value = i
+console.log(i)
+
+i+=2
 }
+
+
+o.connect(context.destination)
+o.start()
+function h(){
+  
+o.start()}
+
 m()
-}
+
   </script> 
  </body>
 </html>
